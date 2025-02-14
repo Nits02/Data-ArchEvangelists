@@ -1,4 +1,3 @@
-
 # Certifiable, Inc. - Challenges and Impacts
 
 **Challenges and Impacts:**
