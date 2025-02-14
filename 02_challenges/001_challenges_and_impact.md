@@ -4,7 +4,7 @@
 
 1. **Manual Grading of Certification Tests:**
     * **Challenge:** Time-intensive grading of short-answer and architecture submissions. Limited expert architect resources.
-    * **Impact:** Delays in a grading turnaround. Difficulty scaling without significant hiring or automation.
+    * **Impact:** Delays in grading turnaround. Difficulty scaling without significant hiring or automation.
 
 2. **Feedback Generation:**
     * **Challenge:** Manual crafting of detailed feedback is time-consuming and creates variability in quality.
