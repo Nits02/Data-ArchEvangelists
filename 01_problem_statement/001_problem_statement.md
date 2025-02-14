@@ -1,3 +1,4 @@
+
 # Certifiable, Inc. - Challenges and Impacts
 
 **Challenges and Impacts:**
@@ -27,5 +28,6 @@
     * **Impact:** Limited budget could restrict the scope and quality of AI integration, especially with rapid scaling.
 
 7. **Candidate Experience:**
-    * **Challenge:** Two-week time limit for Test 2 might be challenging if candidates face delays in accessing resources or support.
+    * **Challenge:** Two week time limit for Test 2 might be challenging if candidates face delays in accessing resources or support.
     * **Impact:** Negative candidate experience may harm company reputation.
+
