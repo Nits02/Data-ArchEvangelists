@@ -113,9 +113,3 @@ Certifiable, Inc. **must act fast** to:
 ✔️ **Optimize cloud scalability** to handle rapid growth.  
 ✔️ **Improve candidate experience** while controlling AI adoption costs.
 
-### 📌 **Submission Notes:**
-- 🚀 **Hackathon-ready `.md` format** optimized for clarity & impact.
-- 🔥 Uses **structured problem statements** and **solution directions**.
-- 💡 Provides **a solid foundation for AI-driven implementation proposals**.
-
----
