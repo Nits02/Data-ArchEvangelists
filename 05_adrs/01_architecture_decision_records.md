@@ -133,3 +133,122 @@ We will implement **Explainable AI (XAI) techniques** to make AI grading decisio
 2️⃣ **Rule-Based Explainability** – Too rigid for AI grading. ❌  
 3️⃣ **XAI Techniques (SHAP, LIME, Dashboard)** – Best for transparency and fairness. ✅  
 
+____________________________
+
+# 🏗 Architecture Decision Records (ADR) - AI-Powered Certification Evaluation System
+
+## **ADR-001: Selection of AI Model for Automated Grading**
+
+### 📅 Date: 2025-02-16
+### 🎯 Status: ✅ Accepted
+
+### **📌 Context**
+Manual grading of certification submissions is **slow, inconsistent, and unscalable**. To improve efficiency, **an AI-powered grading system** is needed to automate evaluations while ensuring **fairness and explainability**.
+
+### **💡 Decision**
+We will use **GPT-4** for analyzing text-based responses and **Graph Neural Networks (GNNs)** for evaluating architecture diagrams. The AI grading system will be supplemented with **human review for low-confidence cases**.
+
+### **🛠 Technologies**
+- **NLP Models:** GPT-4, Hugging Face Transformers (BERT, T5, RoBERTa)
+- **Diagram Analysis:** YOLO/Detectron2 for architecture recognition
+- **Model Hosting:** Azure OpenAI / AWS SageMaker
+
+### **🚀 Consequences**
+✅ Faster grading (~80-90% reduction in grading time)  
+✅ Standardized and unbiased evaluations  
+✅ Reduces expert workload by focusing on edge cases  
+❗ Requires cloud hosting and periodic retraining
+
+### **📌 Alternatives Considered**
+1️⃣ **Fully Manual Grading** – Slow, costly, and not scalable ❌  
+2️⃣ **Rule-Based AI** – Limited adaptability, hard to maintain ❌  
+3️⃣ **Hybrid AI + Human Review (Chosen Approach)** – Best balance of speed and quality ✅
+
+---
+
+## **ADR-002: AI-Driven Feedback Generation**
+
+### 📅 Date: 2025-02-16
+### 🎯 Status: ✅ Accepted
+
+### **📌 Context**
+Manual feedback generation is inconsistent and delays certification. AI-generated feedback can **improve response time and maintain quality**.
+
+### **💡 Decision**
+An **AI-based feedback engine** will automatically generate **personalized, structured feedback** for candidates based on predefined rubrics and best practices.
+
+### **🛠 Technologies**
+- **Text-Based Feedback:** GPT-4 fine-tuned for grading responses
+- **Explainability (XAI):** SHAP, LIME for transparency in feedback
+- **Feedback Storage:** NoSQL (MongoDB, DynamoDB) for scalability
+
+### **🚀 Consequences**
+✅ 80% reduction in feedback response time  
+✅ More structured and actionable feedback for candidates  
+✅ Scalable for high submission volumes  
+❗ Requires monitoring to avoid AI hallucinations
+
+### **📌 Alternatives Considered**
+1️⃣ **Manual Feedback** – Too slow and inconsistent ❌  
+2️⃣ **Template-Based AI Responses** – Lacks personalization ❌  
+3️⃣ **AI-Generated + Expert Validation (Chosen Approach)** – Ensures efficiency with quality control ✅
+
+---
+
+## **ADR-003: Cloud-Native Infrastructure for AI Grading**
+
+### 📅 Date: 2025-02-16
+### 🎯 Status: ✅ Accepted
+
+### **📌 Context**
+The system needs to scale efficiently as certification requests increase. A **cloud-based approach** ensures **high availability, auto-scaling, and cost-effectiveness**.
+
+### **💡 Decision**
+The AI grading and feedback system will be deployed on **Azure Kubernetes Service (AKS) / AWS SageMaker** with **serverless execution using Azure Functions / AWS Lambda**.
+
+### **🛠 Technologies**
+- **Model Deployment:** Azure ML, AWS SageMaker
+- **Serverless Execution:** Azure Functions, AWS Lambda
+- **Storage:** Azure Blob / AWS S3 for file handling
+
+### **🚀 Consequences**
+✅ Handles peak loads dynamically  
+✅ Reduces operational costs via serverless execution  
+✅ Supports multi-region deployments for better performance  
+❗ Requires cloud cost monitoring and security governance
+
+### **📌 Alternatives Considered**
+1️⃣ **On-Premises Deployment** – High maintenance, lacks elasticity ❌  
+2️⃣ **Traditional VMs** – Costly and inefficient for scaling ❌  
+3️⃣ **Cloud-Native, Serverless Architecture (Chosen Approach)** – Most efficient and scalable ✅
+
+---
+
+## **ADR-004: Explainable AI (XAI) for Transparent Grading**
+
+### 📅 Date: 2025-02-16
+### 🎯 Status: ✅ Accepted
+
+### **📌 Context**
+AI grading needs to be **transparent and interpretable** for candidates and auditors. Explainable AI (XAI) techniques are required to **justify AI-driven grading decisions**.
+
+### **💡 Decision**
+We will implement **SHAP (SHapley Additive Explanations)** and **LIME (Local Interpretable Model-Agnostic Explanations)** to **break down AI grading logic** into human-understandable formats.
+
+### **🛠 Technologies**
+- **XAI Frameworks:** SHAP, LIME
+- **Interactive Dashboard:** React.js, Flask/FastAPI for score explainability
+- **Logging & Auditability:** ELK Stack (Elasticsearch, Logstash, Kibana)
+
+### **🚀 Consequences**
+✅ Builds trust in AI grading outcomes  
+✅ Enables candidates to understand their scores  
+✅ Allows auditors to validate AI decisions  
+❗ Adds computational overhead for explainability processing
+
+### **📌 Alternatives Considered**
+1️⃣ **No Explainability (Black Box AI)** – Lacks transparency ❌  
+2️⃣ **Rule-Based Explainability** – Too rigid for AI grading ❌  
+3️⃣ **XAI Techniques (SHAP, LIME, Dashboard) (Chosen Approach)** – Best for transparency ✅
+
+---
