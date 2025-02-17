@@ -1,5 +1,8 @@
 # 🚀 Certifiable Inc. AI-Powered Certification System
 
+
+
+
 ## **🔹 Overview**
 Certifiable Inc. is transforming its **software architecture certification process** with AI-driven automation, cloud scalability, and real-time candidate support. This project was designed to tackle **scalability, candidate experience, administrative inefficiencies, and cost concerns**, ensuring **faster, fairer, and more efficient certifications**.
 
