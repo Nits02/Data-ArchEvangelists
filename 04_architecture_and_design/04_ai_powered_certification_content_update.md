@@ -5,6 +5,8 @@ This architecture automates the certification content update process using **AI-
 
 ## **📌 Architecture Diagram (Plain Text Format)**
 
+![img_1.png](../images/test2.png)
+
 ```plaintext
                       +---------------------------------------------------+
                       |         Industry Trend Analysis Module           |
