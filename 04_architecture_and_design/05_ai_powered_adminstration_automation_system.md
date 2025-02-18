@@ -5,6 +5,8 @@ This architecture automates **candidate & expert profile management, onboarding,
 
 ## **📌 Architecture Diagram (Plain Text Format)**
 
+![img.png](../images/administration_automation.png)
+
 ```plaintext
                       +---------------------------------------------------+
                       |          Candidate & Expert Self-Service Portal  |
