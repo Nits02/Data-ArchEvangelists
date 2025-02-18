@@ -7,53 +7,8 @@ This architecture ensures **fast, scalable, and explainable AI-driven grading** 
 
 ## **🏗️ System Architecture Diagram**
 
-```plaintext
-+---------------------------+
-|  Candidate Submits Answer |
-+------------+--------------+
-             |
-             v
-+------------------------------------+
-|  API Gateway (Azure API Gateway)   |
-+----------------+-------------------+
-             |
-             v
-+-----------------------------------+
-| AI Grading Engine                 |
-| - Preprocessing & Normalization    |
-| - Semantic Matching (GPT-4)        |
-| - Scoring Mechanism & Feedback     |
-+-----------------------------------+
-             |
-       +-----+-----+
-       |           |
-       v           v
-+-----------------+  +------------------+
-| Low Confidence  |  | High Confidence  |
-| (Send to Human)|  | (Auto-Grade)     |
-+-----------------+  +------------------+
-       |
-       v
-+-------------------------+
-| Human Review Dashboard  |
-| (HITL Validation)       |
-+-------------------------+
-       |
-       v
-+------------------------+
-| Final Score & Feedback |
-+------------------------+
-       |
-       v
-+---------------------+
-| Database (Azure DB)|
-+---------------------+
-       |
-       v
-+-----------------------------+
-| Candidate Receives Feedback |
-+-----------------------------+
-```
+![img.png](../images/img.png)
+
 
 ---
 
