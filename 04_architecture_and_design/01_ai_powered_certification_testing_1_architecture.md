@@ -7,7 +7,7 @@ This architecture ensures **fast, scalable, and explainable AI-driven grading** 
 
 ## **🏗️ System Architecture Diagram**
 
-![img.png](../images/img.png)
+![img.png](../images/test1.png)
 
 
 ---
