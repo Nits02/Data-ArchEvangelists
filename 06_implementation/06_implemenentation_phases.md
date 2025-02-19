@@ -107,3 +107,5 @@ This document outlines the **phased deployment strategy** for transitioning to a
 
 ## 🔥 **Final Thoughts**
 This **phased deployment strategy** ensures **Certifiable Inc. transitions smoothly** to a **scalable, microservices-based architecture** while maintaining **service continuity**. 🚀
+
+<sub>*Added by DataArchEvanglist Team For Winter 2025 Kata: Architecture & AI on 19th Feb 2025*</sub>

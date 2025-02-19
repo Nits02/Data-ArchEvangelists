@@ -79,3 +79,5 @@ To enhance **candidate experience** and **reduce processing delays**, we propose
 ## 🔥 Final Thoughts
 
 This **AI-powered candidate experience enhancement** ensures **faster grading, better transparency, and real-time support**. Certifiable Inc. can **retain more candidates, improve satisfaction, and strengthen its reputation**. 🚀
+
+<sub>*Added by DataArchEvanglist Team For Winter 2025 Kata: Architecture & AI on 19th Feb 2025*</sub>

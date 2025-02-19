@@ -30,3 +30,4 @@ We will use **GPT-4** for analyzing text-based responses and **Graph Neural Netw
 3️⃣ **Hybrid AI + Human Review (Chosen Approach)** – Best balance of speed and quality ✅
 
 ---
+<sub>*Added by DataArchEvanglist Team For Winter 2025 Kata: Architecture & AI on 19th Feb 2025*</sub>
