@@ -111,7 +111,16 @@ Our system leverages **microservices, AI-driven automation, and cloud-native dep
 
 ![Component Diagram](images/C3_Certification_Evaluation.png)
 
-
+**Architecture & Design**
+1. **[001: AI-Powered Certification Evaluation System - Test1](04_architecture_and_design/01_ai_powered_certification_testing_1_architecture.md)**
+2. **[002: AI-Powered Certification Evaluation System - Test2](04_architecture_and_design/02_ai_powered_certification_testing_2_architecture.md)**
+3. **[003: AI-Driven Feedback Generation](04_architecture_and_design/03_ai_powered_certification_evaulation_system.md)**
+4. **[004: AI-Powered Content Generation](04_architecture_and_design/04_ai_powered_certification_content_update.md)**
+5. **[005: AI-Powered Administrative Automation](04_architecture_and_design/05_ai_powered_adminstration_automation_system.md)**
+6. **[006: Scalable Microservices Architecture](04_architecture_and_design/06_scalable_microservice_architecture.md)**
+7. **[007: Cost-Optimized AI Deployment](04_architecture_and_design/07_cost_optimized_ai_deployment_architecture.md)**
+8. **[008: AI-Powered Candidate Experience](04_architecture_and_design/08_ai_powered_candidate_experience_enhancement_architecture.md)**
+---
 ---
 
 ## 🛠 **Technical Implementation**
