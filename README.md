@@ -1,5 +1,14 @@
-# 🚀 Certifiable Inc. AI-Powered Certification System
+<img src="images/KATA Banner.png" alt="AI Katas"/>
 
+<img src="images/DataArchEvangilist.jpg" alt="Team name"/>
+# 🚀 [Certifiable Inc.](03_solution/solution.md) AI-Powered Certification System
+
+### Welcome to the **Certifiable Inc. Certification System** repository!
+
+This project is designed to provide AI-Powered Certification System which automates time-intensive grading of exams, managing accuracy and feedback, and maintaining the integrity of tests and case studies, handling customer inquiries on products, orders, returns and refunds while seamlessly integrating with our company’s database. 
+This AI-driven solution is designed to streamline grading process through advanced generative AI, maintaining the credibility, accuracy, and scalability of certification process at best.
+
+---
 
 
 
@@ -29,20 +38,45 @@ Certifiable Inc. faced several challenges in scaling its certification process:
 - **High AI adoption costs**, making automation challenging.
 - **Administrative inefficiencies**, increasing operational overhead.
 
-[📄 Detailed Problem Statement](./docs/problem_statement.md)
+📄 [Detailed Problem Statement](01_problem_statement/01_problem_statement.md)
+
+---
+
+### 🌟 **Team Members**
+
+Hi! We are the **"Data-ArchEvangelists Team"** – a group of innovative minds from **EPAM Systems, India**.
+<img src="images/Team.jpg" alt="Team name" width="200" height="200"/>
+
+-  **[Nitesh Sharma](https://www.linkedin.com/in/nsharma02/)** -           Data Architect
+-  **[Mohit Tiwari](https://www.linkedin.com/in/mohit-tewari/)** -         Lead Data Scientist
+-  **[Jyoti Singh](https://www.linkedin.com/in/jyoti-singh-49b2b319/)** -  Lead Data Engineer
 
 ---
 
 ## 🚀 **Proposed Solution**
 
 To address these challenges, we implemented:
-- **AI-Powered Grading:** Automating 80% of evaluations using NLP & Computer Vision.
+- **AI-Powered Grading Services:** Automating 80% of evaluations using NLP & Computer Vision.
+   
+   - a) [Test 1 ](03_solution/01_manual_grading_test_1.md)(Aptitude Test - Short Answer): 3 hours per candidate.
+   - b) [Test 2](03_solution/01_manual_grading_test_2.md) (Architecture Submission): 8 hours per candidate.
+   - c) [Feedback Generation](03_solution/03_feedback_generation_process.md) (Feedback Generation)AI enabled solution to provide feedback to tests.
+
 - **Real-Time Candidate Support:** AI chatbots & tracking dashboards.
+
+   - [Candidate Experience](03_solution/08_candidate_experience_solution.md)
+- **Certification & Content Management:** Efficient way to manage candidate as well as interviewer profile.
+
+  - [Content Management](03_solution/04_updating_certification_content.md)
 - **Event-Driven Microservices:** Scalable cloud-based architecture.
-- **Cost-Optimized AI Deployment:** Serverless AI execution & hybrid cloud strategy.
+
+  Cost-Optimized AI Deployment ,Serverless AI execution & hybrid cloud strategy via
+   - [Event Driven Processing](03_solution/06_system_scalability_risks.md)
+
 - **Automated Administrative Workflows:** RPA & AI-based task management.
 
-[📄 Detailed Solution](./docs/solution_overview.md)
+   - [Administration & Monitoring](03_solution/05_adminstration_inefficiencies.md)
+
 
 ---
 
