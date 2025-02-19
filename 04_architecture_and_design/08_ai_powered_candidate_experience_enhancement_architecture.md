@@ -3,50 +3,8 @@
 ## **🔹 Overview**
 This architecture improves **candidate experience** by integrating **AI-powered grading, real-time status tracking, chatbots, and adaptive deadlines**. It enhances transparency, reduces delays, and provides 24/7 candidate support.
 
-## **📌 Architecture Diagram (Plain Text Format)**
-
-```plaintext
-                          +--------------------------------------+
-                          |         Candidate Interface         |
-                          | (Web Portal / Mobile App / API)     |
-                          +--------------------------------------+
-                                        |
-                                        v
-                          +--------------------------------------+
-                          |   API Gateway & Load Balancer       |
-                          | (Azure Front Door / AWS ALB / Nginx)|
-                          +--------------------------------------+
-                                        |
-                                        v
-    +---------------------------+----------------------------+----------------------------+
-    |                           |                            |                            |
-    v                           v                            v
-+--------------------+    +----------------------+    +---------------------------+
-| AI Grading Engine |    | Adaptive Deadline    |    | Real-Time Candidate Support |
-| - NLP for text    |    | Engine               |    | - AI Chatbot (FAQ & Status) |
-| - Computer Vision |    | - ML model predicts  |    | - Live expert escalation   |
-|   for diagrams    |    |   needed extensions  |    | - 24/7 availability        |
-| - Rule-based AI   |    | - Prevents unfair    |    |                            |
-| - Human review    |    |   penalties          |    |                            |
-+--------------------+    +----------------------+    +---------------------------+
-       |                            |                           |
-       v                            v                           v
-+------------------------+    +----------------------+    +------------------------+
-|   Feedback Engine      |    |    Event Queue      |    |  Progress Tracking     |
-| - AI-generated        |    | - Kafka, RabbitMQ   |    | - Candidate sees      |
-|   feedback on errors  |    | - Handles async     |    |   live grading status |
-| - Structured grading  |    |   grading tasks     |    | - Submission tracking |
-| - Human validation    |    |                      |    | - Admin oversight     |
-+------------------------+    +----------------------+    +------------------------+
-                                        |
-                                        v
-                          +--------------------------------------+
-                          |    Performance Monitoring & Logs     |
-                          |  - Tracks AI grading efficiency     |
-                          |  - Identifies workload bottlenecks  |
-                          |  - Predictive analytics for trends  |
-                          +--------------------------------------+
-```
+## **📌 System Architecture Diagram**
+![img.png](../images/C2_Candidate_Experience.png)
 
 ---
 
