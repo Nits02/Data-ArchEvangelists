@@ -1,6 +1,6 @@
 # 🏗 Architecture Decision Records (ADRs) - Scalable Microservices Architecture
 
-## **ADR-001: Migration to Microservices Architecture**
+## **ADR-006: Migration to Microservices Architecture**
 
 ### 📅 Date: 2025-02-16
 ### 🎯 Status: ✅ Approved

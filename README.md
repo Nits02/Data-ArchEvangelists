@@ -21,9 +21,8 @@ Certifiable Inc. is transforming its **software architecture certification proce
 1. [Problem Statement](#-problem-statement)
 2. [Team Members](#-team-members)
 2. [Proposed Solution](#-proposed-solution)
-3. [Challenges & Impact](#)
+3. [Challenges & Impact](#-challenges--impact)
 3. [System Architecture](#-system-architecture)
-4. [Key Features & Benefits](#-key-features--benefits)
 5. [Technical Implementation](#-technical-implementation)
 6. [Architecture Decision Records (ADRs)](#-architecture-decision-records-adrs)
 7. [How to Contribute](#-how-to-contribute)
@@ -72,10 +71,9 @@ To address these challenges, we implemented:
   - [Content Management](03_solution/04_updating_certification_content.md)
 - **Event-Driven Microservices:** Scalable cloud-based architecture.
 
-  Cost-Optimized AI Deployment ,Serverless AI execution & hybrid cloud strategy via
    - [Event Driven Processing](03_solution/06_system_scalability_risks.md)
 
-- **Automated Administrative Workflows:** RPA & AI-based task management.
+- **Notification** Email, SMS, Candidate updates and expiry alert.
 
    - [Administration & Monitoring](03_solution/05_adminstration_inefficiencies.md)
 
@@ -99,7 +97,8 @@ To address these challenges, we implemented:
 ## 🏗 **System Architecture**
 Our system leverages **microservices, AI-driven automation, and cloud-native deployment** to deliver a scalable and cost-effective solution.
 
-![System Architecture](images/C1_Context_Diagram.png)
+### C1 System Context Diagram
+![Context Diagram](images/C1_Context_Diagram.png)
 
 - **Modular Microservices:** Independent grading, feedback, admin, and candidate services.
 - **Event-Driven Processing:** Kafka, Redis Streams, and WebSockets for fast communication.
@@ -107,18 +106,6 @@ Our system leverages **microservices, AI-driven automation, and cloud-native dep
 - **Scalability with Kubernetes (AKS/EKS)** and auto-scaling policies.
 
 [📄 Full Architecture Details](./docs/system_architecture.md)
-
----
-
-## 🌟 **Key Features & Benefits**
-
-✅ **🚀 10X Scalability** – Handles thousands of candidates seamlessly.  
-✅ **🤖 AI-Powered Automation** – Faster grading, better feedback.  
-✅ **💡 Real-Time Tracking & Support** – Candidates always know their status.  
-✅ **💰 Cost Optimization** – Smart AI deployment saves up to 60%.  
-✅ **📊 Transparent Analytics & Monitoring** – Admins get real-time insights.
-
-[📄 Detailed Features & Benefits](./docs/features.md)
 
 ---
 
@@ -134,19 +121,21 @@ Our system leverages **microservices, AI-driven automation, and cloud-native dep
 | **Database & Storage** | PostgreSQL, Azure CosmosDB, AWS DynamoDB |
 | **Monitoring & Logging** | Prometheus, Grafana, ELK Stack |
 
-[📄 Full Technical Breakdown](./docs/technical_overview.md)
+[📄 Full Technical Breakdown](06_implementation/06_implemenentation_phases.md)
 
 ---
 
 ## 📜 **Architecture Decision Records (ADRs)**
 We documented key architectural decisions to ensure transparency and adaptability.
 
-1. **[ADR-001: AI-Driven Grading](./docs/adrs/adr_001_ai_grading.md)**
-2. **[ADR-002: Real-Time Candidate Support](./docs/adrs/adr_002_candidate_support.md)**
-3. **[ADR-003: Adaptive Deadline Extensions](./docs/adrs/adr_003_adaptive_deadlines.md)**
-4. **[ADR-004: Event-Driven Microservices](./docs/adrs/adr_004_event_microservices.md)**
-5. **[ADR-005: Cost-Optimized AI Deployment](./docs/adrs/adr_005_cost_optimization.md)**
-
+1. **[ADR-001: AI-Powered Certification Evaluation System - Test1](05_adrs/01_architecture_decision_records.md)**
+2. **[ADR-002: AI-Powered Certification Evaluation System - Test2](05_adrs/02_architecture_decision_records.md)**
+3. **[ADR-003: AI-Driven Feedback Generation](05_adrs/03_adr_feedback_generation.md)**
+4. **[ADR-004: AI-Powered Content Generation](05_adrs/04_adr_updating_certification_content.md)**
+5. **[ADR-005: AI-Powered Administrative Automation](05_adrs/05_adr_adminstration_inefficiencies.md)**
+6. **[ADR-006: Scalable Microservices Architecture](05_adrs/06_adr_scalable_microservices_architecture.md)**
+7. **[ADR-007: Cost-Optimized AI Deployment](05_adrs/07_adr_cost_optimized_ai_deployment.md)**
+8. **[ADR-008: AI-Powered Candidate Experience](05_adrs/08_adr_ai_powered_candidate_experience.md)**
 ---
 
 ## 🤝 **How to Contribute**

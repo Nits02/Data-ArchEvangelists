@@ -2,7 +2,7 @@ ____________________________
 
 # 🏗 Architecture Decision Records (ADR) - AI-Powered Certification Evaluation System
 
-## **ADR-001: Selection of AI Model for Automated Grading**
+## **ADR-002: Selection of AI Model for Automated Grading**
 
 ### 📅 Date: 2025-02-16
 ### 🎯 Status: ✅ Accepted

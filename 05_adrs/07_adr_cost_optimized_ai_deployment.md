@@ -1,6 +1,6 @@
 # 🏗 Architecture Decision Records (ADRs) - Cost-Optimized AI Deployment
 
-## **ADR-001: Serverless AI Execution for Cost Efficiency**
+## **ADR-007: Serverless AI Execution for Cost Efficiency**
 
 ### 📅 Date: 2025-02-16
 ### 🎯 Status: ✅ Approved
