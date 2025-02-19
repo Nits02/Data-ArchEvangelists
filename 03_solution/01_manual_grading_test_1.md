@@ -58,8 +58,11 @@ The solution leverages **Natural Language Processing (NLP) and Machine Learning 
 
 ## 📈 **Expected Impact**
 ✅ **80-90% faster grading** for short-answer responses.
+
 ✅ **Reduced grading workload** for expert software architects.
+
 ✅ **More consistent, fair, and transparent scoring.**
+
 ✅ **Scalability to handle 5-10X increase in certification requests.**
 
 ---

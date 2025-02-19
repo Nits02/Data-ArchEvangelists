@@ -43,7 +43,7 @@ This document outlines the **major challenges** and their **potential impact**, 
 🚨 **Inconsistent feedback** frustrates candidates.  
 ⏳ **Longer feedback cycles** affect certification timelines.
 
-> **💡 Solution Direction:** **Use Generative AI** (GPT-4) for **personalized, consistent feedback**.
+> **💡 Solution Direction:** **Use Generative AI** (GPT-4) for **personalized, consistent feedback with HITL**.
 
 ---
 

@@ -3,55 +3,11 @@
 ## **🔹 Overview**
 This architecture enables **scalability, high availability, and resilience** to handle **5-10X candidate growth**. It **leverages microservices, event-driven processing, and auto-scaling** to ensure seamless test submissions and grading.
 
-## **📌 Architecture Diagram (Plain Text Format)**
+## **📌 Architecture Diagram**
 
-```plaintext
-                        +--------------------------------------+
-                        |        Candidate Interface          |
-                        | (Web Portal / Mobile App / API)     |
-                        +--------------------------------------+
-                                        |
-                                        v
-                        +--------------------------------------+
-                        |      API Gateway & Load Balancer    |
-                        | (Azure Front Door / AWS ALB / Nginx)|
-                        +--------------------------------------+
-                                        |
-                                        v
-                +------------------------+------------------------+
-                |                         |                        |
-                v                         v                        v
-  +-----------------------+    +-----------------------+    +-----------------------+
-  |  Authentication       |    |  Test Submission      |    |  Test Results Service  |
-  |  - OAuth 2.0 / JWT    |    |  - Handles candidate |    |  - Fetches & processes |
-  |  - Identity & RBAC    |    |    test submissions  |    |    grading results     |
-  |  - Managed with AD    |    |  - Stores in queue   |    |  - Returns scores      |
-  +-----------------------+    +-----------------------+    +-----------------------+
-                |                         |                        |
-                v                         v                        v
-  +-----------------------+    +-----------------------+    +-----------------------+
-  |   Kafka / Event Grid  |    |  AI Grading Service  |    |   Certification DB    |
-  |   - Event-driven      |    |  - ML-based grading  |    |  - Stores results     |
-  |   - Async processing  |    |  - NLP evaluation    |    |  - Candidate history  |
-  |   - Decouples tasks   |    |  - AI-generated feedback |  |  - Verified certs    |
-  +-----------------------+    +-----------------------+    +-----------------------+
-                                        |
-                                        v
-                        +--------------------------------------+
-                        |   Feedback & Notifications Service  |
-                        |  - Sends emails & alerts            |
-                        |  - API-based notifications          |
-                        |  - Slack, Email, Webhooks           |
-                        +--------------------------------------+
-                                        |
-                                        v
-                        +--------------------------------------+
-                        |       Admin Monitoring Dashboard    |
-                        |  - Real-time analytics             |
-                        |  - Predictive scaling insights     |
-                        |  - Performance monitoring          |
-                        +--------------------------------------+
-```
+
+![img.png](../images/scalable_architecture.png)
+
 
 ---
 
