@@ -141,12 +141,21 @@ Our system leverages **microservices, AI-driven automation, and cloud-native dep
  
 ---
 
+![C2_Test_1_Updated.png](images/C2_Test_1_Updated.png)
 
-![Container Diagram](images/C2_Test_1_Updated.png)
+![C2_Test_2_Updated.png](images/C2_Test_2_Updated.png)
 
-![Container Diagram](images/C2_Test_2_Updated.png)
+![C3_Certification_Evaluation.png](images/C3_Certification_Evaluation.png)
 
-![Component Diagram](images/C3_Certification_Evaluation.png)
+![C2_Content_Update.png](images/C2_Content_Update.png)
+
+![C2_Administration_Automation.png](images/C2_Administration_Automation.png)
+
+![scalable_architecture.png](images/scalable_architecture.png)
+
+![C2_Candidate_Experience.png](images/C2_Candidate_Experience.png)
+
+![C2_Cost_Optmization_AI.png](images/C2_Cost_Optmization_AI.png)
 
 ![C4_Diagram.png](images/C4_Diagram.png)
 
