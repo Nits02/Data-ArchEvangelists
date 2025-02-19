@@ -35,3 +35,5 @@ This architecture ensures **cost-efficient AI adoption** by integrating **server
 
 ## **🔥 Final Thoughts**
 This **cost-optimized AI deployment strategy** ensures **Certifiable Inc. can scale AI automation without budget overruns**, balancing **performance, cost, and quality**. 🚀
+
+<sub>*Added by DataArchEvanglist Team For Winter 2025 Kata: Architecture & AI on 19th Feb 2025*</sub>
