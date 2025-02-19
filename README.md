@@ -1,7 +1,7 @@
 <img src="images/KATA Banner.png" alt="AI Katas"/>
 
-<img src="images/DataArchEvangilist.jpg" alt="Team name"/>
-# 🚀 [Certifiable Inc.](03_solution/solution.md) AI-Powered Certification System
+<img src="images/TeamName_Resize.png" alt="Team name"/>
+
 
 ### Welcome to the **Certifiable Inc. Certification System** repository!
 
@@ -19,13 +19,15 @@ Certifiable Inc. is transforming its **software architecture certification proce
 
 ## 📌 **Table of Contents**
 1. [Problem Statement](#-problem-statement)
+2. [Team Members](#-team-members)
 2. [Proposed Solution](#-proposed-solution)
+3. [Challenges & Impact](#)
 3. [System Architecture](#-system-architecture)
 4. [Key Features & Benefits](#-key-features--benefits)
 5. [Technical Implementation](#-technical-implementation)
 6. [Architecture Decision Records (ADRs)](#-architecture-decision-records-adrs)
 7. [How to Contribute](#-how-to-contribute)
-8. [License](#-license)
+
 
 ---
 
@@ -44,8 +46,8 @@ Certifiable Inc. faced several challenges in scaling its certification process:
 
 ### 🌟 **Team Members**
 
-Hi! We are the **"Data-ArchEvangelists Team"** – a group of innovative minds from **EPAM Systems, India**.
-<img src="images/Team.jpg" alt="Team name" width="200" height="200"/>
+Hi! We are the **"Data-ArchEvangelists Team"** – playing with Data via AI.
+- <img src="images/Team.jpg" alt="Team name" width="200" height="200"/>
 
 -  **[Nitesh Sharma](https://www.linkedin.com/in/nsharma02/)** -           Data Architect
 -  **[Mohit Tiwari](https://www.linkedin.com/in/mohit-tewari/)** -         Lead Data Scientist
@@ -79,11 +81,25 @@ To address these challenges, we implemented:
 
 
 ---
+## 🚀 **Challenges & Impact**
+
+| 🚧 **Challenge**                          | 🎯 **Impact** |
+|------------------------------------------|----------------------------------------------------------------|
+| **Manual Grading of Certification Tests** | 🔴 Delays grading turnaround, hard to scale without automation. |
+| **Feedback Generation Bottleneck**       | 🟠 Inconsistent feedback, longer cycles reduce candidate throughput. |
+| **Outdated Certification Content**       | 🔴 Difficult to update with industry trends, risking credibility. |
+| **Inefficient Administrative Processes** | 🟡 High overhead for managing candidate & expert data. |
+| **System Scalability Issues**            | 🔴 Risk of system crashes, degraded performance, and slow response. |
+| **High Cost of AI Integration**          | 🟠 Budget constraints could limit automation potential. |
+| **Poor Candidate Experience**            | 🔴 Slow response times and outdated processes hurt reputation. |
+
+[more information](02_challenges/01_challenges_and_impact.md)
+
 
 ## 🏗 **System Architecture**
 Our system leverages **microservices, AI-driven automation, and cloud-native deployment** to deliver a scalable and cost-effective solution.
 
-![System Architecture](./assets/system_architecture.png)
+![System Architecture](images/C1_Context_Diagram.png)
 
 - **Modular Microservices:** Independent grading, feedback, admin, and candidate services.
 - **Event-Driven Processing:** Kafka, Redis Streams, and WebSockets for fast communication.
@@ -142,9 +158,6 @@ We welcome contributions! Follow these steps to contribute:
 5. **Push & Submit a PR:** `git push origin feature-branch`
 
 ---
-
-## 📜 **License**
-This project is licensed under the **MIT License** – feel free to use and adapt it!
 
 📧 **For inquiries, reach out at:** [certifiable-support@example.com](mailto:certifiable-support@example.com)
 
