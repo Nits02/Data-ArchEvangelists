@@ -7,7 +7,7 @@ This architecture ensures **fast, scalable, and explainable AI-driven grading** 
 
 ## **🏗️ System Architecture Diagram**
 
-![img.png](../images/test1.png)
+![img.png](../images/C2_Test_1_Updated.png)
 
 
 ---
@@ -47,9 +47,13 @@ This architecture ensures **fast, scalable, and explainable AI-driven grading** 
 
 ## 📈 **Expected Benefits**
 ✅ **Reduces grading time by 80-90%.**
+
 ✅ **Scales efficiently for high certification demand.**
+
 ✅ **Ensures fair, explainable, and consistent grading.**
+
 ✅ **Minimizes expert workload while improving quality.**
+
 ✅ **Provides real-time feedback & transparency.**
 
 ---
