@@ -5,7 +5,7 @@ This architecture automates the certification evaluation process using AI-driven
 
 ## **System Architecture Diagram**
 
-![img.png](../images/C3_Certification_Evaluation.png)
+![Certification Evaluation](../images/C3_Certification_Evaluation.png)
 
 
 ## **Key Enhancements in This Architecture**

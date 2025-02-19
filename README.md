@@ -105,7 +105,12 @@ Our system leverages **microservices, AI-driven automation, and cloud-native dep
 - **Cloud-Native & Serverless AI Execution:** AWS Lambda, Azure Functions.
 - **Scalability with Kubernetes (AKS/EKS)** and auto-scaling policies.
 
-[📄 Full Architecture Details](./docs/system_architecture.md)
+![Container Diagram](images/C2_Test_1_Updated.png)
+
+![Container Diagram](images/C2_Test_2_Updated.png)
+
+![Component Diagram](images/C3_Certification_Evaluation.png)
+
 
 ---
 
