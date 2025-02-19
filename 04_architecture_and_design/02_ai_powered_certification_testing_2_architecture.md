@@ -5,7 +5,7 @@ This document outlines the architecture for an **AI-powered grading system** for
 
 ---
 
-## 📌 Architecture Diagram (Plain Text Representation)
+## 📌 System Architecture Diagram
 
 ![img.png](../images/C2_Test_2_Updated.png)
 ---
