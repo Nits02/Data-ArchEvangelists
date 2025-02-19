@@ -1,6 +1,6 @@
 # 🏗 Architecture Decision Records (ADRs) - AI-Powered Candidate Experience
 
-## **ADR-001: AI-Driven Grading for Faster Evaluation**
+## **ADR-008: AI-Driven Grading for Faster Evaluation**
 
 ### 📅 Date: 2025-02-16
 ### 🎯 Status: ✅ Approved

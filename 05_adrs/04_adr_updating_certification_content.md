@@ -1,10 +1,6 @@
 ____________________________
 
 # 🏗 Architecture Decision Records (ADR) - AI-Powered Content Generation
-
-___________________________
-
-
 # ADR-001: Adoption of AI for Automated Content Generation
 
 ## 📅 Date
