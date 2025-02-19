@@ -1,6 +1,6 @@
 # 🏗 Architecture Decision Records (ADRs) - Scalable Microservices Architecture
 
-## **ADR-006: Migration to Microservices Architecture**
+## **ADR-009: Migration to Microservices Architecture**
 
 ### 📅 Date: 2025-02-16
 ### 🎯 Status: ✅ Approved
@@ -30,7 +30,7 @@ We will migrate from a **monolithic architecture to a microservices-based archit
 
 ---
 
-## **ADR-002: Adoption of Event-Driven Architecture for Asynchronous Processing**
+## **ADR-010: Adoption of Event-Driven Architecture for Asynchronous Processing**
 
 ### 📅 Date: 2025-02-16
 ### 🎯 Status: ✅ Approved
@@ -59,7 +59,7 @@ We will implement an **Event-Driven Architecture (EDA)** using **Kafka / Azure E
 
 ---
 
-## **ADR-003: Implementation of Kubernetes-Based Auto-Scaling**
+## **ADR-011: Implementation of Kubernetes-Based Auto-Scaling**
 
 ### 📅 Date: 2025-02-16
 ### 🎯 Status: ✅ Approved
@@ -86,28 +86,6 @@ We will implement **Kubernetes Horizontal Pod Autoscaling (HPA) and Cluster Auto
 1️⃣ **Static Server Provisioning** – Inefficient for handling peak loads ❌  
 2️⃣ **Manual Scaling** – Time-consuming & prone to errors ❌  
 3️⃣ **Kubernetes Auto-Scaling (Chosen Approach)** – Best for cost & performance ✅
-
----
-## **ADR-004: AI-Driven Grading for Faster Evaluation**
-
-### 📅 Date: 2025-02-16
-### 🎯 Status: ✅ Approved
-
-### **📌 Context**
-Manual grading is inefficient and slows down candidate evaluations. AI-powered grading can automate **80% of test evaluations** using NLP for text and computer vision for diagrams.
-
-### **💡 Decision**
-Implement an **AI-based grading system** that combines **natural language processing (NLP)** and **computer vision (CV)** to provide structured, automated grading and feedback.
-
-### **🛠 Technologies**
-- **NLP Model:** OpenAI GPT-4, Hugging Face Transformers
-- **Computer Vision:** YOLO, Detectron2
-- **Processing Pipeline:** FastAPI, Python
-
-### **🚀 Consequences**
-✅ **Reduces grading turnaround by 50-70%**  
-✅ **Ensures structured & consistent grading**  
-❗ **Requires continuous AI model training & monitoring for fairness**
 
 ---
 

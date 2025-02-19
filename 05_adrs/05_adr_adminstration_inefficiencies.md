@@ -1,6 +1,6 @@
 # 🏗 Architecture Decision Records (ADRs) - AI-Powered Administrative Automation
 
-## **ADR-005: AI-Driven Candidate & Expert Profile Management**
+## **ADR-007: AI-Driven Candidate & Expert Profile Management**
 
 ### 📅 Date: 2025-02-16
 ### 🎯 Status: ✅ Approved
@@ -33,7 +33,7 @@ Adopt an **AI-driven candidate & expert profile management system** that:
 
 ---
 
-## **ADR-002: RPA-Based Workflow Automation for Administrative Tasks**
+## **ADR-008: RPA-Based Workflow Automation for Administrative Tasks**
 
 ### 📅 Date: 2025-02-16
 ### 🎯 Status: ✅ Approved

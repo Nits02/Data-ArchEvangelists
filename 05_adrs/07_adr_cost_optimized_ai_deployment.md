@@ -1,6 +1,6 @@
 # 🏗 Architecture Decision Records (ADRs) - Cost-Optimized AI Deployment
 
-## **ADR-007: Serverless AI Execution for Cost Efficiency**
+## **ADR-012: Serverless AI Execution for Cost Efficiency**
 
 ### 📅 Date: 2025-02-16
 ### 🎯 Status: ✅ Approved
@@ -23,7 +23,7 @@ Adopt **AWS Lambda / Azure Functions** for AI inference, ensuring AI workloads o
 
 ---
 
-## **ADR-002: Hybrid Cloud AI Processing for Cost Optimization**
+## **ADR-013: Hybrid Cloud AI Processing for Cost Optimization**
 
 ### 📅 Date: 2025-02-16
 ### 🎯 Status: ✅ Approved
@@ -45,7 +45,7 @@ Use **on-prem GPUs for training & batch workloads**, while **leveraging cloud GP
 
 ---
 
-## **ADR-003: AI Confidence Score Routing to Reduce Compute Costs**
+## **ADR-014: AI Confidence Score Routing to Reduce Compute Costs**
 
 ### 📅 Date: 2025-02-16
 ### 🎯 Status: ✅ Approved

@@ -3,46 +3,9 @@
 ## **🔹 Overview**
 This architecture ensures **cost-efficient AI adoption** by integrating **serverless AI execution, hybrid cloud processing, AI task prioritization, and real-time cost monitoring**. It optimizes **compute expenses** while maintaining **automation and scalability**.
 
-## **📌 Architecture Diagram (Plain Text Format)**
+## **📌 System Architecture Diagram**
 
-```plaintext
-                          +--------------------------------------+
-                          |         Candidate Interface         |
-                          | (Web Portal / Mobile App / API)     |
-                          +--------------------------------------+
-                                        |
-                                        v
-                          +--------------------------------------+
-                          |   API Gateway & Load Balancer       |
-                          | (Azure Front Door / AWS ALB / Nginx)|
-                          +--------------------------------------+
-                                        |
-                                        v
-          +----------------------------+---------------------------+
-          |                            |                           |
-          v                            v                           v
-  +-----------------------+    +------------------------+    +-----------------------+
-  |  AI Task Prioritization |    |  Serverless AI Execution  |    |  Hybrid Cloud AI Processing  |
-  |  - Routes simple tasks  |    |  - AWS Lambda / Azure Fn  |    |  - Cloud & on-prem AI split  |
-  |  - Uses rule-based logic |    |  - Runs AI inference on  |    |  - Uses spot instances       |
-  |  - AI handles complex  |    |    demand (reduces costs) |    |  - GPU allocation mgmt.      |
-  +-----------------------+    +------------------------+    +-----------------------+
-          |                            |                           |
-          v                            v                           v
-  +-----------------------+    +------------------------+    +-----------------------+
-  |  AI Confidence Score  |    |  Fine-Tuned AI Models  |    |   AI Cost Monitoring  |
-  |  - Auto-approve high  |    |  - Uses optimized LLMs |    |  - Real-time expense  |
-  |  - AI-generated feedback |  |  - DistilBERT, T5-Small  |  |    tracking (AWS/Azure) |
-  |  - Human review low  |    |  - Faster, lower cost  |    |  - Alerts for overruns  |
-  +-----------------------+    +------------------------+    +-----------------------+
-                                        |
-                                        v
-                          +--------------------------------------+
-                          |    Feedback & Cost Insights        |
-                          |  - Cost-optimized AI usage data   |
-                          |  - Performance tracking dashboard |
-                          +--------------------------------------+
-```
+![img.png](../images/C2_Cost_Optmization_AI.png)
 
 ---
 
