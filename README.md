@@ -213,3 +213,6 @@ We welcome contributions! Follow these steps to contribute:
 📧 **For inquiries, reach out at:** [certifiable-support@example.com](mailto:certifiable-support@example.com)
 
 🚀 **Let’s redefine certification with AI!**
+
+<sub>*Added by DataArchEvanglist Team For Winter 2025 Kata: Architecture & AI on 19th Feb 2025*</sub>
+

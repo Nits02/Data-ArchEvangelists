@@ -113,3 +113,6 @@ Certifiable, Inc. **must act fast** to:
 ✔️ **Optimize cloud scalability** to handle rapid growth.  
 ✔️ **Improve candidate experience** while controlling AI adoption costs.
 
+<sub>*Added by DataArchEvanglist Team For Winter 2025 Kata: Architecture & AI on 19th Feb 2025*</sub>
+
+

@@ -66,3 +66,5 @@ The solution leverages **Natural Language Processing (NLP) and Machine Learning 
 ✅ **Scalability to handle 5-10X increase in certification requests.**
 
 ---
+
+<sub>*Added by DataArchEvanglist Team For Winter 2025 Kata: Architecture & AI on 19th Feb 2025*</sub>

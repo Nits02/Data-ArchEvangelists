@@ -100,3 +100,6 @@ The system should be **cloud-hosted** to ensure high availability and performanc
 📌 **Step 4**: Integrate with Certification Database for seamless processing.
 
 ---
+
+<sub>*Added by DataArchEvanglist Team For Winter 2025 Kata: Architecture & AI on 19th Feb 2025*</sub>
+
