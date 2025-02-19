@@ -135,7 +135,7 @@ We documented key architectural decisions to ensure transparency and adaptabilit
 5. **[ADR-005: AI-Powered Administrative Automation](05_adrs/05_adr_adminstration_inefficiencies.md)**
 6. **[ADR-006: Scalable Microservices Architecture](05_adrs/06_adr_scalable_microservices_architecture.md)**
 7. **[ADR-007: Cost-Optimized AI Deployment](05_adrs/07_adr_cost_optimized_ai_deployment.md)**
-8. **[ADR-007: AI-Powered Candidate Experience](05_adrs/08_adr_ai_powered_candidate_experience.md)**
+8. **[ADR-008: AI-Powered Candidate Experience](05_adrs/08_adr_ai_powered_candidate_experience.md)**
 ---
 
 ## 🤝 **How to Contribute**
