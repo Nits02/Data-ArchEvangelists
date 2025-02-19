@@ -1,7 +1,7 @@
 ____________________________
 
 # 🏗 Architecture Decision Records (ADR) - AI-Powered Content Generation
-# ADR-001: Adoption of AI for Automated Content Generation
+# ADR-004: Adoption of AI for Automated Content Generation
 
 ## 📅 Date
 2025-02-16
@@ -42,7 +42,7 @@ We will use **AI-powered content generation models (GPT-4, T5, BERT)** to **auto
 2️⃣ **Fully AI-Generated Content** – Fast but **lacks human validation** ❌  
 3️⃣ **Hybrid AI + Human Review (Selected)** – **Best balance of speed & accuracy** ✅  
 
-# ADR-002: AI-Powered Content Validation and Quality Control
+# ADR-005: AI-Powered Content Validation and Quality Control
 
 ## 📅 Date
 2025-02-16
@@ -82,7 +82,7 @@ We will implement an **AI-powered validation engine** that:
 3️⃣ **AI Validation + Human Review (Selected)** – **Balanced approach.** ✅  
 
 
-# ADR-003: Integration with Content Management System (CMS) for Seamless Updates
+# ADR-006: Integration with Content Management System (CMS) for Seamless Updates
 
 ## 📅 Date
 2025-02-16

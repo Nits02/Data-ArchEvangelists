@@ -1,6 +1,6 @@
 # 🏗 Architecture Decision Records (ADRs) - AI-Powered Candidate Experience
 
-## **ADR-008: AI-Driven Grading for Faster Evaluation**
+## **ADR-015: AI-Driven Grading for Faster Evaluation**
 
 ### 📅 Date: 2025-02-16
 ### 🎯 Status: ✅ Approved
@@ -27,7 +27,7 @@ Adopt an **AI-powered grading engine** using **NLP for textual responses** and *
 
 ---
 
-## **ADR-002: Real-Time Candidate Support via AI Chatbot**
+## **ADR-016: Real-Time Candidate Support via AI Chatbot**
 
 ### 📅 Date: 2025-02-16
 ### 🎯 Status: ✅ Approved
@@ -54,7 +54,7 @@ Deploy an **AI-driven chatbot** integrated with the grading system to provide **
 
 ---
 
-## **ADR-003: Adaptive Deadline Extensions Using AI**
+## **ADR-017: Adaptive Deadline Extensions Using AI**
 
 ### 📅 Date: 2025-02-16
 ### 🎯 Status: ✅ Approved
