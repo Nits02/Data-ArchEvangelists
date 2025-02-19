@@ -11,7 +11,7 @@ This architecture ensures **fast, scalable, and explainable AI-driven grading** 
 
 
 ---
-
+---
 ## 🔹 **Key Components**
 
 ### **1️⃣ API Gateway**
