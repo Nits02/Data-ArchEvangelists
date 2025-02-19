@@ -88,3 +88,28 @@ We will implement **Kubernetes Horizontal Pod Autoscaling (HPA) and Cluster Auto
 3️⃣ **Kubernetes Auto-Scaling (Chosen Approach)** – Best for cost & performance ✅
 
 ---
+## **ADR-004: AI-Driven Grading for Faster Evaluation**
+
+### 📅 Date: 2025-02-16
+### 🎯 Status: ✅ Approved
+
+### **📌 Context**
+Manual grading is inefficient and slows down candidate evaluations. AI-powered grading can automate **80% of test evaluations** using NLP for text and computer vision for diagrams.
+
+### **💡 Decision**
+Implement an **AI-based grading system** that combines **natural language processing (NLP)** and **computer vision (CV)** to provide structured, automated grading and feedback.
+
+### **🛠 Technologies**
+- **NLP Model:** OpenAI GPT-4, Hugging Face Transformers
+- **Computer Vision:** YOLO, Detectron2
+- **Processing Pipeline:** FastAPI, Python
+
+### **🚀 Consequences**
+✅ **Reduces grading turnaround by 50-70%**  
+✅ **Ensures structured & consistent grading**  
+❗ **Requires continuous AI model training & monitoring for fairness**
+
+---
+
+## 🔥 **Final Thoughts**
+These **ADRs document the key technical decisions** that ensure **Certifiable Inc.'s certification system remains scalable, efficient, and secure**. 🚀
