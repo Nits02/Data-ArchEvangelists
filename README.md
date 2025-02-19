@@ -105,11 +105,50 @@ Our system leverages **microservices, AI-driven automation, and cloud-native dep
 - **Cloud-Native & Serverless AI Execution:** AWS Lambda, Azure Functions.
 - **Scalability with Kubernetes (AKS/EKS)** and auto-scaling policies.
 
+## **🔹 Key Components in Context Diagram**
+
+### **1️⃣ External Entities**
+- **Candidates** – Register, submit tests, and track certification status.
+- **Admins** – Manage **test content, certification issuance, and AI grading reports**.
+- **Hiring Companies** – Validate candidates' credentials using **Verification API**.
+
+### **2️⃣ Core System (Certifiable Inc. Certification System)**
+- **Candidate Portal** – Enables test submissions, certification tracking, and AI feedback visibility.
+- **Admin Dashboard** – Monitors AI grading, updates test content, and ensures system performance.
+- **Hiring Company API** – Allows **third-party validation** of certification details.
+
+### **3️⃣ Internal Microservices**
+- **AI Grading Service** – NLP & CV models process test submissions for grading automation.
+- **Certification Service** – Issues and verifies **certifications & expiry dates**.
+- **Event Processing Service** – Kafka/Event Grid ensures **asynchronous, scalable workflows**.
+- **Notification Service** – Sends **real-time candidate updates (email, SMS, chatbot, alerts)**.
+- **Content Management System (CMS)** – Allows **admins to update test content dynamically**.
+- **Admin & Monitoring Service** – Provides **real-time logging, AI monitoring, and system analytics**.
+
+---
+
+## **🎯 All Challenges Addressed?**
+
+| **🚧 Challenge** | **✅ Addressed By** |
+|-----------------|------------------|
+| **Manual Grading Delays** | **AI Grading Service** (Automates evaluations). |
+| **Inconsistent Feedback** | **AI Feedback Engine + AI Chatbot** (Provides structured grading insights). |
+| **Outdated Certification Content** | **Content Management System (CMS)** (Dynamically updates test materials). |
+| **Inefficient Admin Workflows** | **Admin Dashboard + Event Processing** (Automates certification workflows). |
+| **System Scalability Risks** | **Event Processing + Microservices** (Ensures load balancing & fault tolerance). |
+| **High Cost of AI** | **Serverless AI Execution + Cost Optimization via Hybrid Cloud** (Efficient AI compute usage). |
+| **Poor Candidate Experience** | **Candidate Portal + Notifications + Chatbot** (Enhances visibility & support). |
+ 
+---
+
+
 ![Container Diagram](images/C2_Test_1_Updated.png)
 
 ![Container Diagram](images/C2_Test_2_Updated.png)
 
 ![Component Diagram](images/C3_Certification_Evaluation.png)
+
+![C4_Diagram.png](images/C4_Diagram.png)
 
 **Architecture & Design**
 1. **[001: AI-Powered Certification Evaluation System - Test1](04_architecture_and_design/01_ai_powered_certification_testing_1_architecture.md)**
