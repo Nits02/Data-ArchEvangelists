@@ -15,7 +15,11 @@ This AI-driven solution is designed to streamline grading process through advanc
 ## **🔹 Overview**
 Certifiable Inc. is transforming its **software architecture certification process** with AI-driven automation, cloud scalability, and real-time candidate support. This project was designed to tackle **scalability, candidate experience, administrative inefficiencies, and cost concerns**, ensuring **faster, fairer, and more efficient certifications**.
 
----
+## 🎥 Demo Video
+
+[▶ Watch the video on Vimeo](https://vimeo.com/1066593815)
+
+
 
 ## 📌 **Table of Contents**
 1. [Problem Statement](#-problem-statement)
