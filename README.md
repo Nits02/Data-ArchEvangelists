@@ -163,6 +163,8 @@ Our system leverages **microservices, AI-driven automation, and cloud-native dep
 
 ![C4_Diagram.png](images/C4_Diagram.png)
 
+![technology_architecture_diagram.png](images/technology_architecture_diagram.png)
+
 **Architecture & Design**
 1. **[001: AI-Powered Certification Evaluation System - Test1](04_architecture_and_design/01_ai_powered_certification_testing_1_architecture.md)**
 2. **[002: AI-Powered Certification Evaluation System - Test2](04_architecture_and_design/02_ai_powered_certification_testing_2_architecture.md)**
