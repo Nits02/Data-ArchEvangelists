@@ -75,3 +75,4 @@ We implement an **AI-based feedback generation engine** that:
 This **AI-Driven Smart Feedback System** eliminates bottlenecks while ensuring **high-quality, fast, and consistent** feedback. It significantly **improves candidate experience and certification efficiency** at **Certifiable Inc.** 🚀🎯
 
 <sub>*Added by DataArchEvanglist Team For Winter 2025 Kata: Architecture & AI on 19th Feb 2025*</sub>
+<sub>*Added by Data Arch Evanglist Team For Winter 2025 Kata: Architecture & AI on 17th March 2025*</sub>

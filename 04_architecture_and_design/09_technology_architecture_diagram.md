@@ -64,4 +64,4 @@ The architecture consists of **multiple integrated services** working together s
 
 📌 **This architecture ensures Certifiable Inc. stays ahead in the AI-driven certification landscape, improving efficiency, accuracy, and scalability!** 🚀
 
----
+---<sub>*Added by Data Arch Evanglist Team For Winter 2025 Kata: Architecture & AI on 17th March 2025*</sub>

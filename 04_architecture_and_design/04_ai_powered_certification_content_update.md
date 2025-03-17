@@ -32,3 +32,4 @@ This architecture automates the certification content update process using **AI-
 
 ## **🔥 Final Thoughts**
 This **AI-powered content update system** ensures that **Certifiable Inc. remains a leader in certification** by dynamically **updating test questions and case studies** with **real-time industry insights**. 🚀
+<sub>*Added by Data Arch Evanglist Team For Winter 2025 Kata: Architecture & AI on 17th March 2025*</sub>

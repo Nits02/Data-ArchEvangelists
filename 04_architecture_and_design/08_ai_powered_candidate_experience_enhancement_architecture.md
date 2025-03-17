@@ -35,3 +35,4 @@ This architecture improves **candidate experience** by integrating **AI-powered 
 
 ## **🔥 Final Thoughts**
 This **AI-powered candidate experience enhancement** ensures **faster grading, real-time support, and deadline flexibility**, helping **retain candidates and protect Certifiable Inc.'s reputation**. 🚀
+<sub>*Added by Data Arch Evanglist Team For Winter 2025 Kata: Architecture & AI on 17th March 2025*</sub>

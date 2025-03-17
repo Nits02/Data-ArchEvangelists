@@ -114,5 +114,5 @@ Certifiable, Inc. **must act fast** to:
 ✔️ **Improve candidate experience** while controlling AI adoption costs.
 
 <sub>*Added by Data Arch Evanglist Team For Winter 2025 Kata: Architecture & AI on 19th Feb 2025*</sub>
-
+<sub>*Added by Data Arch Evanglist Team For Winter 2025 Kata: Architecture & AI on 17th March 2025*</sub>
 

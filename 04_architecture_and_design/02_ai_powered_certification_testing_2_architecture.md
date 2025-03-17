@@ -40,3 +40,4 @@ This document outlines the architecture for an **AI-powered grading system** for
 ✅ **Better candidate experience** → Provides detailed, actionable feedback
 
 ---
+<sub>*Added by Data Arch Evanglist Team For Winter 2025 Kata: Architecture & AI on 17th March 2025*</sub>

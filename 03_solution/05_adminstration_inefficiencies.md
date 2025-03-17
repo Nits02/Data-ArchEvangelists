@@ -80,3 +80,4 @@ To reduce administrative overhead and **streamline profile management**, we prop
 ## 🔥 Final Thoughts
 
 This **AI-driven administrative automation system** eliminates inefficiencies by **automating profile management, onboarding, and tracking**. Certifiable Inc. will **reduce operational costs, speed up processes, and improve the experience for both candidates & experts**. 🚀🎯
+<sub>*Added by Data Arch Evanglist Team For Winter 2025 Kata: Architecture & AI on 17th March 2025*</sub>

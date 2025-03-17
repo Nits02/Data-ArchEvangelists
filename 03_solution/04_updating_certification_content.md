@@ -82,3 +82,5 @@ To ensure **up-to-date, high-quality certification content**, we introduce an **
 ## 🔥 Final Thoughts
 
 This **AI-driven content update system** ensures that **Certifiable Inc.’s certification remains credible, up-to-date, and industry-relevant**. By **automating content generation & validation**, the process is **efficient, scalable, and high-quality**. 🚀🎯
+
+<sub>*Added by Data Arch Evanglist Team For Winter 2025 Kata: Architecture & AI on 17th March 2025*</sub>

@@ -52,3 +52,4 @@ This architecture enables **scalability, high availability, and resilience** to 
 
 ## **🔥 Final Thoughts**
 This **scalable microservices architecture** ensures **high performance, availability, and real-time test processing** while **supporting 5-10X candidate growth**. 🚀
+<sub>*Added by Data Arch Evanglist Team For Winter 2025 Kata: Architecture & AI on 17th March 2025*</sub>

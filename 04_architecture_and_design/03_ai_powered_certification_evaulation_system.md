@@ -18,3 +18,5 @@ This architecture automates the certification evaluation process using AI-driven
 This approach **eliminates bottlenecks** by reducing manual work while maintaining high-quality evaluations! 🚀
 
 ---
+
+<sub>*Added by Data Arch Evanglist Team For Winter 2025 Kata: Architecture & AI on 17th March 2025*</sub>

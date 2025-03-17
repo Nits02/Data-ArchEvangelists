@@ -33,3 +33,4 @@ This architecture automates **candidate & expert profile management, onboarding,
 
 ## **🔥 Final Thoughts**
 This **AI-powered administrative automation system** streamlines candidate & expert profile management, onboarding, and progress tracking. By **leveraging AI and automation**, Certifiable Inc. can **reduce operational overhead, speed up processing, and improve overall efficiency**. 🚀
+<sub>*Added by Data Arch Evanglist Team For Winter 2025 Kata: Architecture & AI on 17th March 2025*</sub>

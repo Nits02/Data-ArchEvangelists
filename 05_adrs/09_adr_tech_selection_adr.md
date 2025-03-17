@@ -157,3 +157,4 @@ We evaluated **three platforms**: Azure, AWS, and GCP.
 ### **✅ Final Choice:** Azure Cloud.
 
 ---
+<sub>*Added by Data Arch Evanglist Team For Winter 2025 Kata: Architecture & AI on 17th March 2025*</sub>

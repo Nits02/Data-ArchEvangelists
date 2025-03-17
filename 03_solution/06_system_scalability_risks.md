@@ -80,3 +80,4 @@ To ensure **seamless scalability** and **high availability**, we propose a **ful
 ## 🔥 Final Thoughts
 
 This **cloud-native, event-driven, microservices-based system** ensures **scalability, performance, and high availability** while **handling 5-10X candidate growth**. 🚀
+<sub>*Added by Data Arch Evanglist Team For Winter 2025 Kata: Architecture & AI on 17th March 2025*</sub>
